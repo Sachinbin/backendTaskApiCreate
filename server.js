@@ -1,6 +1,5 @@
 require("dotenv").config();
 let app = require("./src/app")
-let productModel = require("./src/models/product.model")
 let connectDB = require("./src/config/db")
 
 connectDB()
